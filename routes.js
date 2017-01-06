@@ -5,15 +5,15 @@ projectApp.config(function ($routeProvider){
     
     .when('/',{
         templateUrl:'pages/home.htm',
-        controller:'secondController'  
+        controller:'mainController'  
     })
     .when('/about',{
         templateUrl:'pages/about.htm',
-        controller:'secondController'
+        controller:'mainController'
     })
     
      .when('/contact',{
         templateUrl:'pages/contact.htm',
-        controller:'secondController'
+        controller:'mainController'
     })
 });
