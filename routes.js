@@ -16,4 +16,9 @@ projectApp.config(function ($routeProvider){
         templateUrl:'pages/contact.htm',
         controller:'mainController'
     })
+    
+      .when('/training',{
+        templateUrl:'pages/training.htm',
+        controller:'mainController'
+    })
 });
